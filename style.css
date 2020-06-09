@@ -1,0 +1,56 @@
+ul {
+    display: flex;
+
+    flex-direction: row;
+    justify-content: center;
+}
+li {
+
+    list-style: none;
+
+}
+a {
+    text-decoration: none;
+    color: rgb(247, 243, 236);;
+    text-transform: capitalize;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: all 0.5s linear;
+    border-radius: 5px;
+}
+.fa-github {
+    font-size: 20px;
+    margin: 3px 70px;
+
+}
+.fa-at {
+    font-size: 20px;
+    margin: 3px 70px;
+    color: rgb(228, 97, 21);
+}
+.fa-twitter-square {
+    color: #2c79e6;
+    font-size: 20px;
+    margin-top: 3px;
+}
+h1 {
+    font-size: 60px;
+    text-transform: capitalize;
+    font-family: 'Sriracha',cursive;
+    text-align: center;
+    text-shadow: 4px 4px 2px rgb(207, 206, 206);
+}
+a:hover {
+    background: rgb(175, 173, 173);
+    color: antiquewhite;
+}
+body{
+ 
+ background:linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('./pexels-photo-577585.jpeg') center/cover no-repeat fixed;
+
+}
+img{
+ opacity: 0.3;
+}
